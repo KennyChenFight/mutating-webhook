@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: loggerclient
-        image: localhost:5000/krvarma/logclient:latest
+        image: kennychenfight/logclient:latest
         env:
         - name: LOG_SERVER
           value: "http://localhost"

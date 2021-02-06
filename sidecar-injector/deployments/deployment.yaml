@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sidecar-injector
-          image: localhost:5000/krvarma/sidecar-injector:latest
+          image: kennychenfight/sidecar-injector:latest
           imagePullPolicy: Always
           args:
             - -certDir=/etc/webhook/certs
